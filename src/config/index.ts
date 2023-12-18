@@ -5,17 +5,17 @@ export const PRODUCT_CATEGORIES = [
     featured: [
       {
         name: 'Lightening',
-        href: `/products?category=ui_kits`,
+        href: `/products?category=smarthome`,
         imageSrc: '/nav/homesystems/smarthome1.jpg',
       },
       {
         name: 'Mobile Control',
-        href: '/products?category=ui_kits&sort=desc',
+        href: '/products?category=smarthome&sort=desc',
         imageSrc: '/nav/homesystems/smarthome2.jpg',
       },
       {
         name: 'Security System',
-        href: '/products?category=ui_kits',
+        href: '/products?category=smarthome',
         imageSrc: '/nav/homesystems/smarthome3.jpg',
       },
     ],
@@ -26,17 +26,17 @@ export const PRODUCT_CATEGORIES = [
     featured: [
       {
         name: 'Installations',
-        href: `/products?category=icons`,
+        href: `/products?category=commercial`,
         imageSrc: '/nav/commercial/commercial1.jpg',
       },
       {
         name: 'Solar Panel',
-        href: '/products?category=icons&sort=desc',
+        href: '/products?category=commercial&sort=desc',
         imageSrc: '/nav/commercial/commercial2.jpg',
       },
       {
         name: 'Industrial Systems',
-        href: '/products?category=icons',
+        href: '/products?category=commercial',
         imageSrc: '/nav/commercial/commercial3.jpg',
       },
     ],
@@ -47,17 +47,17 @@ export const PRODUCT_CATEGORIES = [
     featured: [
       {
         name: 'Favorite Product Picks',
-        href: `/products?category=icons`,
+        href: `/products?category=minigrid`,
         imageSrc: '/nav/minigrid/minigrid1.jpg',
       },
       {
         name: 'New Arrivals',
-        href: '/products?category=icons&sort=desc',
+        href: '/products?category=minigrid&sort=desc',
         imageSrc: '/nav/minigrid/minigrid2.jpg',
       },
       {
         name: 'Bestselling Products',
-        href: '/products?category=icons',
+        href: '/products?category=minigrid',
         imageSrc: '/nav/minigrid/minigrid3.jpg',
       },
     ],
@@ -68,17 +68,17 @@ export const PRODUCT_CATEGORIES = [
     featured: [
       {
         name: 'Modern Bulbs',
-        href: `/products?category=icons`,
+        href: `/products?category=solarappliances`,
         imageSrc: '/nav/appliances/appliances1.jpg',
       },
       {
         name: 'Solar Fan',
-        href: '/products?category=icons&sort=desc',
+        href: '/products?category=solarappliances&sort=desc',
         imageSrc: '/nav/appliances/appliances2.jpeg',
       },
       {
         name: 'Solar Charged Lamps',
-        href: '/products?category=icons',
+        href: '/products?category=solarappliances',
         imageSrc: '/nav/appliances/appliances3.jpeg',
       },
     ],
@@ -89,17 +89,17 @@ export const PRODUCT_CATEGORIES = [
     featured: [
       {
         name: 'Solar Water Pump',
-        href: `/products?category=icons`,
+        href: `/products?category=rooftop`,
         imageSrc: '/nav/rooftop/rooftop1.jpeg',
       },
       {
         name: 'Car Chargers',
-        href: '/products?category=icons&sort=desc',
+        href: '/products?category=rooftop&sort=desc',
         imageSrc: '/nav/rooftop/rooftop2.jpeg',
       },
       {
         name: 'Solar Shingles',
-        href: '/products?category=icons',
+        href: '/products?category=rooftop',
         imageSrc: '/nav/rooftop/rooftop3.jpeg',
       },
     ],
@@ -110,17 +110,17 @@ export const PRODUCT_CATEGORIES = [
     featured: [
       {
         name: 'Consultation',
-        href: `/products?category=icons`,
+        href: `/products?category=services`,
         imageSrc: '/nav/services/services1.jpg',
       },
       {
         name: 'Trainings',
-        href: '/products?category=icons&sort=desc',
+        href: '/products?category=services&sort=desc',
         imageSrc: '/nav/services/services2.jpg',
       },
       {
         name: 'Education',
-        href: '/products?category=icons',
+        href: '/products?category=services',
         imageSrc: '/nav/services/services3.jpg',
       },
     ],

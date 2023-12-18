@@ -42,15 +42,7 @@ export interface Product {
   name: string;
   description?: string | null;
   price: number;
-  category:
-    | 'smarthome'
-    | 'commercial'
-    | 'minigrid'
-    | 'solarappliances'
-    | 'rooftop'
-    | 'services'
-    | 'ui_kits'
-    | 'icons';
+  category: 'smarthome' | 'commercial' | 'minigrid' | 'solarappliances' | 'rooftop' | 'services';
   product_files: string | ProductFile;
   approvedForSale?: ('pending' | 'approved' | 'denied') | null;
   priceId?: string | null;
@@ -146,6 +138,7 @@ export interface PayloadMigration {
   updatedAt: string;
   createdAt: string;
 }
+
 
 declare module 'payload' {
   export interface GeneratedTypes extends Config {}
